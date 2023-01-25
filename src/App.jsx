@@ -1,16 +1,14 @@
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+      <Notification message="There is no feedback"></Notification>
+      <Section title="">
+        <FeedbackOptions options={} onLeaveFeedback={}></FeedbackOptions>
+      </Section>
+
+      <Section title="">
+              <Statistics good={} neutral={} bad={} total={} positivePercentage={}></Statistics>
+    </Section>
     </div>
   );
 };
