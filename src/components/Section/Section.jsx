@@ -2,10 +2,10 @@ import React from 'react';
 
 const Section = ({ title, children }) => {
   return (
-    <Section>
-      {title && <h2> {title} </h2>}
+    <div>
+      {title && <h1> {title} </h1>}
       {children}
-    </Section>
+    </div>
   );
 };
 
