@@ -1,1 +1,1 @@
-simple feedback form on react
+simple feedback form on reactjs
